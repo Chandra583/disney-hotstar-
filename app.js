@@ -51,7 +51,7 @@ setInterval(() => {
 }, 3000);
 
 
-////video cards
+////video cards to hover
 const videoCards = document.querySelectorAll('.video-card');
 
 videoCards.forEach(item => {
