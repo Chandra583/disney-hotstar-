@@ -37,6 +37,15 @@ body{
     list-style: none;
  }
 
+ .nav-links a:hover{
+  /* opacity: 0.5;
+  */
+  color:  #1f80e0;
+  /* transition: 0.5s; */
+  text-transform: capitalize;
+
+ }
+
  .nav-items a{
     text-decoration: none;
     margin-left:20px ;
@@ -80,6 +89,13 @@ body{
     font-weight: 700;
     font-size: 12px;
     margin: 0 10px;
+    opacity: 0.8;
+  }
+
+  .sub-btn:hover{
+    /* transform: scale(1.1); */
+    transition: 0.3s;
+    opacity: 1;
   }
 
   .login-link{
@@ -163,8 +179,12 @@ body{
     display:flex ;
     margin-bottom:20px;
     justify-content:space-between ;
-    border: 1px solid rgb(41, 38, 38);
 
+
+  }
+  .video-card:hover{
+    border: 1px solid #fff;
+    transition: 0.5s;
   }
 
   .video-card{
@@ -239,6 +259,10 @@ body{
   margin-right: 10px;
   transition: .5s;
   }
+  .card:hover{
+    border: 1.5px solid rgb(158, 151, 151);
+    transition: 0.3s;
+  }
 
   .card-img{
     width: 100%;
@@ -261,6 +285,7 @@ body{
 
   .card:hover{
     transform: scale(1.1);
+ 
   }
   .card:hover .card-body{
     opacity: 1;

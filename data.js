@@ -1,8 +1,14 @@
 let movies = [
+    
     {
         name: 'wanda vision',
         des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
         image: 'images/slider 3.PNG'
+    },
+    {
+        name: 'Pak vs Sri Final T20 Mathch',
+        des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
+        image: 'images/Slider 6.webp'    
     },
     {
         name: 'falcon and the winter soldier',
