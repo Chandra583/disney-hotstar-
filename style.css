@@ -416,6 +416,7 @@ footer{
   transform: translateY(30px);
   transition: all 400ms ease;
   background-color: #023047;
+  border-radius: 10px;
 }
 
 .coupon-container.active {
@@ -458,7 +459,7 @@ footer{
 
 .coupon-container p {
   font-size: 18px;
-  color: #a4cadd;
+  color: #ecf1f3;
   margin: 8px;
 }
 
@@ -466,20 +467,21 @@ footer{
   font-family: "Poppins", sans-serif;
   font-size: 56px;
   font-weight: 300;
-  color: #076170;
+  color: #fff;
 }
 
 .coupon-container .code {
   font-size: 45px;
   font-weight: 900;
+  color:#bcdff0;
 }
 
 .coupon-container .btn {
   text-decoration: none;
-  background: #e63946;
+  background: #3b4683;
   padding: 16px;
   display: inline-block;
-  width: 100%;
+  width: 80%;
   color: #fff;
   box-sizing: border-box;
   margin-top: 24px;
@@ -487,6 +489,8 @@ footer{
   font-weight: 900;
   text-transform: uppercase;
   transition: all 300ms ease;
+  margin-bottom: 20px;
+
 }
 
 .coupon-container .btn:hover {
