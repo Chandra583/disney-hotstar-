@@ -97,3 +97,12 @@ const closeBtn = document.querySelector(".coupon-container .close");
 closeBtn.addEventListener("click", () => {
   couponContainer.classList.remove("active");
 });
+
+//dark-light mode js
+const checkbox = document.getElementById('checkbox');
+const navbar = document.getElementsByClassName('navbar')
+checkbox.addEventListener('change', ()=>{
+    //changing the theme or background colour of website
+    document.body.classList.toggle('dark');
+});
+
