@@ -9,12 +9,17 @@ body{
     background-color: #0c111b;
     position: relative;
     font-family: roboto,sans-serif;
+   
 }
 body.dark{
   background-color: #aebdba;
   color: #000000;
+  transition: background-color, 0.5s linear;
 }
-
+ p, #out,
+#weatherOut{
+  color: #bcdff0;
+}
  .navbar{
     width: 100%;
     height: 80px;
@@ -143,6 +148,11 @@ body.dark{
     opacity: 0.8;
   }
 
+#location .sub-btn{
+  width: 50px;
+  text-align: center;
+  
+}
   .sub-btn:hover{
     /* transform: scale(1.1); */
     transition: 0.3s;

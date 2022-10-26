@@ -47,8 +47,10 @@
         <li class="nav-items"><a href="#">Movies</a></li>
         <li class="nav-items"><a href="#">Sports</a></li>
         <li class="nav-items"><a href="#">Premium</a></li>
+     
         
       </ul>
+      
       <div>
         <input type="checkbox" class="checkbox" id="checkbox">
         <label for="checkbox" class="label">
@@ -57,7 +59,11 @@
           <div class="ball"></div>
 
         </label>
+        
       </div>
+      <button  onclick="geolocation()" id="location" class="sub-btn">Get</button>
+      <p id="out"></p>
+      <p id="weatherOut"></p>
 
       <div class="right-container">
         <input type="text" class="search-box" placeholder="search" />
@@ -339,7 +345,6 @@
       
 
     </footer>
-
     <script src="data.js"></script>
     <script src="app.js"></script>
   </body>
