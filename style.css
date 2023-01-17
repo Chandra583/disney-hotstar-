@@ -130,7 +130,7 @@ body.dark{
 
   .search-box:focus{
     width: 400px;
-    border-color: rgb(91, 91, 185);
+    /* border-color: rgb(91, 91, 185); */
   }
 
   .sub-btn{
