@@ -94,10 +94,9 @@ body.dark{
  }
 
  .nav-links a:hover{
-  /* opacity: 0.5;
-  */
+
   color:  #1f80e0;
-  /* transition: 0.5s; */
+  transition: 0.5s;
   text-transform: capitalize;
 
  }
@@ -108,6 +107,7 @@ body.dark{
     text-transform: capitalize;
     color: #fff;
     opacity: 0.9;
+
  }
   .right-container{
     display: block;
@@ -130,7 +130,7 @@ body.dark{
 
   .search-box:focus{
     width: 400px;
-    /* border-color: rgb(91, 91, 185); */
+    border-color: rgb(91, 91, 185);
   }
 
   .sub-btn{
